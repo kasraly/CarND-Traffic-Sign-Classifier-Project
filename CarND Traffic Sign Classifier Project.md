@@ -131,6 +131,10 @@ I cropped the signs and resized them to 32 by 32 pixels. the result were images 
 
 ![alt text][new_signs_trans]
 
+The images I found are high quality renders and do not have the artifacts and limitations of the real-life photos. They are all have ideal brightness and contrast and are rotated in any way. So I do not expect issues from that perspective. 
+The only part that might cause issues is the cropping. I had to crop the images manually and used my judgment to decide what size I should use for the crop. Since my crop area could be different than the crop of original dataset, it can change the scale of the traffic sign within the image and cause trouble for classification.
+After reviewing the classes for original dataset, I noticed that the class for some of the of the new signs (first two and last four) are not in the original dataset. So, I do not expect meaningful classification of those images, but I am curios to see what classes would be assigned to them. 
+
 ####2. Performance on New Images
 
 Here are the results of the prediction:
